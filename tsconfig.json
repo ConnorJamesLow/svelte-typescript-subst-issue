@@ -1,0 +1,20 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/*"
+    ],
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "esnext",
+        "types": [
+            "svelte",
+            "node",
+            "@sapper"
+        ],
+        "typeRoots": [
+            "types"
+        ]
+    }
+}
